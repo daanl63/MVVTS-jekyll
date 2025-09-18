@@ -21,7 +21,7 @@ title: Our Partners
     
     <div class="team-grid">
       
-    {% for member in site.data.team[team.key] %} 
+    {% for member in site.data.partern[team.key] %} 
     <div class="team-member">
    
     {% if member.img %}
@@ -35,7 +35,10 @@ title: Our Partners
     
       <h3>{{ member.name }}</h3>
       <p><i>{{ member.role }}</i>. {{ member.bio }}</p>
-    
+    {% if member.linkedin %}
+      <li><</li>
+    {% endif %}
+      
     </div>
     {% endfor %}
         
