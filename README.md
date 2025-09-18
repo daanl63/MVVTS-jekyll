@@ -10,17 +10,17 @@ More advanced is using a CLI or VS configured to be able to connect to remote re
   - make sure you have installed git & jekyll
   - in a new directory, create an empty repository:
     - ```git init```
-    - set Git settings to connect to upstream (Github) repository:
+  - set Git settings to connect to upstream (Github) repository:
     - ```git config remote.origin.url "git@github.com:daanl63/MVVTS-jekyll.git"```
-    - you may need to have a ssh key to manipulate the remote repository -> connect the author
-    - find out about the name of the right branch, e.g. in this case 'master' or a dev branch
-    - clone the repo and cd to the clone'd repo
+  - you may need to have a ssh key to manipulate the remote repository -> connect the author
+  - find out about the name of the right branch, e.g. in this case 'master' or a dev branch
+  - clone the repo and cd to the clone'd repo
     - ```git clone https://github.com/daanl63/MVVTS-jekyll.git```
-    - check status:
+  - check status:
     - ```git status```
-    - or check the config:
+  - or check the config:
     - ``` git config -l```
-    - if you do a ```git pull``` it should say ```Already up to date```
-    - make some changes, e.g. edit ```index.html``` or other files
+  - if you do a ```git pull``` it should say ```Already up to date```
+  - make some changes, e.g. edit ```index.html``` or other files
   
   
