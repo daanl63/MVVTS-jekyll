@@ -12,7 +12,7 @@ More advanced is using a CLI or VS configured to be able to connect to remote re
     - ```git init```
   - set Git settings to connect to upstream (Github) repository:
     - ```git config remote.origin.url "git@github.com:daanl63/MVVTS-jekyll.git"```
-  - you may need to have a ssh key to manipulate the remote repository -> connect the author
+  - you may need to have a *ssh key* to manipulate the remote repository -> connect the author. You can test the ssh creds with ``` ssh -T git@github.com```.
   - find out about the name of the right branch, e.g. in this case 'master' or a dev branch
   - clone the repo and cd to the clone'd repo
     - ```git clone https://github.com/daanl63/MVVTS-jekyll.git```
