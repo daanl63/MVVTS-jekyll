@@ -26,6 +26,7 @@ am:
   - name: Robert Bals
     role: Auditor
     bio:
+    img:
     linkedin: https://www.linkedin.com/in/rbals/
     
 pt:
@@ -33,13 +34,23 @@ pt:
     role: Pentesting Partner
     bio:  
     img:  
+    linkedin: 
     
   - name : PLTFRM
     role: Digital Services  
     bio:  
     img:  
+    linkedin:
     
   - name: HSD
     role: Innovation Center
     bio:  
     img: 
+    linkedin:
+
+  - name: Microsoft
+    role: SaaS provider
+    bio:
+    img:
+    linkedin:
+    
