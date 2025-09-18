@@ -1,4 +1,4 @@
-pt:
+am:
   - name: Jan-Willem Klerkx
     role: Investor
     bio:  
@@ -28,7 +28,7 @@ pt:
     bio:
     linkedin: https://www.linkedin.com/in/rbals/
     
-ep:
+pt:
   - name: CREDS
     role: Pentesting Partner
     bio:  
