@@ -36,7 +36,8 @@ title: Our Partners
       <h3>{{ member.name }}</h3>
       <p><i>{{ member.role }}</i>. {{ member.bio }}</p>
     {% if member.linkedin %}
-      <li><</li>
+      <a href="{{member.linkedin}}" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+      <i class="fa-brands fa-linkedin fa-2x"></i>
     {% endif %}
       
     </div>
