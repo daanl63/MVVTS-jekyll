@@ -2,4 +2,8 @@
   key: pt
 - name: Extended Team
   key: ext
+- name: Ambassadors
+  key: am
+- name: Partner Companies
+  key: pc
   
