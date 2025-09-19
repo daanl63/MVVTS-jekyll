@@ -242,7 +242,8 @@
 
   .case-logo img {
     width: 50%;
-    height: auto;
+    max-height: 300px;
+    height: 70%;
   }
 
   .case-content {
