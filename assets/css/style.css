@@ -229,7 +229,7 @@
     flex-wrap: wrap;
     gap: 30px;
     padding: 10px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 2px solid #eee;
   }
   .case-logo {
     flex: 1;
@@ -241,11 +241,10 @@
   }
 
   .case-logo img {
-    width: auto;
     max-height: 300px;
-    height: 80%;
+    height: 90%;
     min-width: 200px;
-    align: left;
+    align: center;
   }
 
   .case-content {
@@ -287,7 +286,7 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
  /* .topnav a:not(:first-child) {display: none;} */
   .topnav a { display: none; }
   .topnav a.icon {
@@ -296,7 +295,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .topnav.responsive {position: relative;}
   
   .topnav.responsive a {
