@@ -11,4 +11,7 @@
 - name: Partners
   link: partners.html
   hidden: true
+- name: Contact
+  link: contact.html
+  
   
