@@ -1,14 +1,11 @@
 ---
-title: Meet the Team
+title: Team
 ---
-
-  {% include hero.html caption='Meet the Team' message='The passionate individuals driving innovation at Modelverse.' 
-     url='contact.html'
-     txt='Contact us'
-  %}
-
-  {% include testimonial.html message='Great results come from strong teams and trusted partnerships. Only together we can achieve Better Security.' who='The Modelverse Team' %}
   
+{% include hero.html caption="Meet the Team" 
+                       message="The passionate individuals driving Customer Success at ValueTracks Services."
+%}
+
   {% for team in site.data.teams %}
     
   <section class="team-section">
@@ -25,12 +22,8 @@ title: Meet the Team
     {% if member.img %}
       <img src="./assets/images/{{member.img}}" alt="{{member.name}}" />
     {% else %}
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="gray" viewBox="0 0 24 24">
-                  <path d="M12 12c2.2 0 4-1.8 4-4s-1.8-4-4-4-4 1.8-4 4 1.8 4 4 4zm0 2c-2.7 0-8 1.3-8 4v2h9.2c-.1-.3-.2-.6-.2-1v-1c0-.6.2-1.1.6-1.5.3-.3.6-.6 1-.7 1.6-.6 3.4.5 3.4 2.2v2h2v-2c0-2.7-5.3-4-8-4z"/>
-                  <path d="M18 13l-2 1v3c0 1.7.8 3.3 2 4.3 1.2-1 2-2.6 2-4.3v-3l-2-1z"/>
-      </svg>
+      {% include anonymous-svg.md %}
     {% endif %}
-    
       <h3>{{ member.name }}</h3>
       <p><i>{{ member.role }}</i>. {{ member.bio }}</p>
     
@@ -44,4 +37,3 @@ title: Meet the Team
 
   <br/>
   
-

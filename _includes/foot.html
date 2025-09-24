@@ -1,13 +1,13 @@
 
  <footer>
     <div class="container">
-      <p>&copy; 2025 Modelverse B.V. | CoC 89447476 - All rights reserved. {{site.time | Date: %e %b'%y (%H:%M)}}.</p>
+      <p>&copy; {{ site.dob }} - {{ site.time | date: '%Y' }}. {{ site.company }} | CoC {{ site.coc-number }} - All rights reserved ({{ site.time | in_time_zone: site.timezone |  date: '%H:%M' }}).</p>
    <br>
       <a href="contact.html" title="Contact Us" style="text-decoration: none;">
       <i class="fa-regular fa-address-card fa-2x"></i>
       </a>
     &nbsp;
-      <a href="https://linkedin.com/company/modelverse" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+      <a href="{{ site.linkedinurl }}" target="_blank" rel="noopener noreferrer" title="LinkedIn">
       <i class="fa-brands fa-linkedin fa-2x"></i>
     </a>
     </div>

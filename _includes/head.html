@@ -9,18 +9,20 @@
       }
     }
     </script>
-    <! navigation container -->
+    <!-- navigation container -->
     <div class="container">
-      <a href="https://modelverse.online" class="active">
-      <img height = "110px" class="logo" src="assets/images/MVLogo.png" alt="Visit Modelverse">
+      <a href="{{ site.deployurl }}" class="active">
+      <img height = "110px" class="logo" src="assets/images/Logo.png" alt="Visit Modelverse">
       </a>
       <div class="topnav" id="myTopNav">
         <a href="javascript:void(0);" class="icon" onclick="fTopnav()"><i class="fa fa-bars fa-2x"></i>&nbsp; Menu</a>
-        {% for item in site.data.navigation %}
-          {%if item.link == page.name %}
-            <a href="{{item.link}}" class="active">{{item.name}}&nbsp;</a>
-          {% else %}
-            <a href="{{item.link}}">{{item.name}}&nbsp;</a>
+        {% for item in site.data.nav %}
+          {% if item.hidden != true %}
+            {%if item.link == page.name %}
+              <a href="{{item.link}}" class="active">{{item.name}}&nbsp;</a>
+            {% else %}
+              <a href="{{item.link}}">{{item.name}}&nbsp;</a>
+            {% endif %}
           {% endif %}
         {% endfor %}
            
