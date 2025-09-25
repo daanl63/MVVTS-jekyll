@@ -234,17 +234,16 @@
   .case-logo {
     flex: 1;
     min-width: 200px;
-    max-width: 33%;
+    max-width: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .case-logo img {
-    max-height: 300px;
-    height: 90%;
-    min-width: 200px;
-    align: center;
+    margin-left: 0;
+    max-height: 125px;
+    max-width: 200px;
   }
 
   .case-content {

@@ -278,6 +278,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 232)
+  jekyll
 
 BUNDLED WITH
    2.7.2

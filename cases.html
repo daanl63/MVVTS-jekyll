@@ -9,20 +9,24 @@ title: Customer Cases
     url='https://www.youtube.com/embed/KO0yNnQ8zbQ?si=igoXFpTw680wUB0z&amp;start=9"'
   %}
   
-
-{% for customer in site.data.customers %}
-<div class="case-section">
-  <div class="case-logo">
-    <img src="{{customer.logo}}" alt="{{customer.name}} logo" />
+<section class="features">
+  <div class="container">
+    <div class="feature">
+      {% for customer in site.data.customers %}
+      <div class="case-section">
+        <div class="case-logo">
+          <img src="{{customer.logo}}" alt="{{customer.name}} logo" />
+        </div>
+        <div class="case-content">
+          <h2><a href="{{customer.url}}">{{customer.name}}</a></h2>
+          <p>{{customer.about}}</a></p>
+          <br/>
+          <p>{{customer.case}}</p>
+        </div>
+      </div>  
+      {% endfor %}
+    </div>
   </div>
-  <div class="case-content">
-    <h2><a href="{{customer.url}}">{{customer.name}}</a></h2>
-    <p>{{customer.about}}</a></p>
-    <br/>
-    <p>{{customer.case}}</p>
-  </div>
-</div>  
-{% endfor %}
-
+</section>
 
 
