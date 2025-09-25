@@ -40,14 +40,14 @@
   logo: assets/images/logo-nedato.svg
   url:  https://nedato.nl/
 
-- name: LeydenJar Technology
-  about: LeydenJar Technology is a scale up that developed a high-performing pure Silicon anode for batteries, boosting the energy of batteries by 50%. They are developing their first production plant in the Eindhoven region.
-  case: We helped LeydenJar to protect its Intellectual Propeprty of their core technology using Modelverse.
-  logo: assets/images/logo-LJT.svg
-  url:  https://leyden-jar.com/
-
 - name: NewForrest Fingerfood
   about: NewForrest Fingerfood is a Dutch company that specializes in producing frozen finger foods, mini snacks, and appetizers for both retail and food service markets.
   case: NewForrest is using the Digital Risk Management functionality of Modelverse.
   logo: assets/images/logo-nfff.svg
   url:  https://newforrest.nl/
+
+- name: LeydenJar Technology
+  about: LeydenJar Technology is a scale up that developed a high-performing pure Silicon anode for batteries, boosting the energy of batteries by 50%. They are developing their first production plant in the Eindhoven region.
+  case: We helped LeydenJar to protect its Intellectual Propeprty of their core technology using Modelverse.
+  logo: assets/images/logo-LJT.svg
+  url:  https://leyden-jar.com/
