@@ -13,7 +13,7 @@ title: Customer Cases
   <div class="container">
     <div class="feature">
       {% for customer in site.data.customers %}
-      <div class="case-section">
+      <div class="case-section" {%if forloop.last%} style="border-bottom: 0px;" {%endif%}>
         <div class="case-logo">
           <img src="{{customer.logo}}" alt="{{customer.name}} logo" />
         </div>
