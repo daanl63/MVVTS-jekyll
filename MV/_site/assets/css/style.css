@@ -142,7 +142,7 @@
     left: 10%;
     bottom: 0;
     right: 0;
-    width: 80%;
+    width: 80%; /* if you want to change the height/width of this class, be sure to also change the padding-top in .video-container */
     height: 100%;
     border: 0;
   }

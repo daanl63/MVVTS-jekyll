@@ -8,6 +8,7 @@
   link: team.html
 - name: Jobs 
   link: jobs.html
+  hidden: true
 - name: Partners
   link: partners.html
   hidden: true
